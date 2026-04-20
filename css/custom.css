@@ -1,0 +1,114 @@
+/* LXGW WenKai Screen Font */
+@import url('https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css');
+
+body {
+    font-family: 'JetBrains Mono', 'LXGW WenKai Screen', -apple-system, system-ui, 'Microsoft YaHei', sans-serif;
+}
+
+/* Custom link colors matching TonyCrane */
+.article .content a {
+    color: #3273dc;
+}
+
+.article .content a:hover {
+    color: #1e64db;
+}
+
+/* Code font */
+code, pre {
+    font-family: 'JetBrains Mono', 'Source Code Pro', monospace, 'Microsoft YaHei';
+}
+
+/* Dark mode styles */
+[data-theme='dark'] body {
+    background-color: #1d1d1d;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+[data-theme='dark'] .navbar {
+    background-color: #1d1d1d;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+[data-theme='dark'] .card {
+    background-color: #2d2d2d;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+[data-theme='dark'] .title {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+[data-theme='dark'] .article .content a {
+    color: #5887FC;
+}
+
+[data-theme='dark'] .article .content a:hover {
+    color: #0072ff;
+}
+
+[data-theme='dark'] .link-muted {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+[data-theme='dark'] .link-muted:hover {
+    color: #0072ff;
+}
+
+[data-theme='dark'] code {
+    background-color: #3d3d3d;
+    color: #f5f5f5;
+}
+
+[data-theme='dark'] .navbar-item {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+[data-theme='dark'] .navbar-item:hover {
+    background-color: #3d3d3d;
+    color: #0072ff;
+}
+
+[data-theme='dark'] .menu-list a {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+[data-theme='dark'] .menu-list a:hover {
+    color: #0072ff;
+}
+
+[data-theme='dark'] .pagination-link {
+    background-color: #2d2d2d;
+    border-color: #3d3d3d;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+[data-theme='dark'] .pagination-link.is-current {
+    background-color: #3273dc;
+    border-color: #3273dc;
+    color: #fff;
+}
+
+[data-theme='dark'] .footer {
+    background-color: #1d1d1d;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+[data-theme='dark'] .input, [data-theme='dark'] .textarea {
+    background-color: #2d2d2d;
+    border-color: #3d3d3d;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+/* Dark mode button styling */
+#colormode {
+    transition: all 0.25s;
+}
+
+#colormode:hover {
+    color: #3273dc;
+}
+
+[data-theme='dark'] #colormode:hover {
+    color: #0072ff;
+}
